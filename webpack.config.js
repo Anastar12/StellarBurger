@@ -53,7 +53,7 @@ module.exports = {
       extensions: ['.js', '.jsx', '.ts', '.tsx']
     }),
     new HtmlWebpackPlugin({
-      template: 'public/index.html'
+      template: 'index.html'
     }),
     new Dotenv()
   ],
